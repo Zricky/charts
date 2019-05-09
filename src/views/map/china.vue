@@ -72,7 +72,7 @@ export default {
       }).transform({
         type: 'map',
         callback: function callback (obj) {
-          obj.trend = obj.value > 100 ? '男' : '女'
+          obj.trend = obj.value > 100 ? '男性更多' : '女性更多'
           return obj
         }
       })
